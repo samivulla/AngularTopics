@@ -1,0 +1,41 @@
+.no-padding {
+    padding: 0px!important;
+}
+
+.navbar_own {
+    width: 100%;
+    background-color: darkgreen;
+    padding-left: 30px;
+    padding-right: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+  }
+  
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+  }
+  
+  .nav-item a {
+    //display: inline-block;
+    padding: 10px 15px;
+    text-decoration: none;
+    color: white;
+  }
+  
+  .nav-item:hover {
+    background-color: white;
+  }
+  
+  .nav-item:hover a {
+    color: darkgreen;
+  }
+  .logo img {
+    width: 175px;
+    vertical-align: middle;
+  }
